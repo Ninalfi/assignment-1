@@ -41,7 +41,6 @@ nav ul {
   list-style: none;
 }
 
-.btn-primary {
 button,
 .btn-primary,
 .stay-btn,
@@ -53,25 +52,10 @@ button,
   border-radius: 8px;
   font-size: 16px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
   text-decoration: none;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-.btn-primary:hover {
-  background-color: #372eff;
-  font-weight: bold;
-}
-
-.stay-btn {
-  background-color: #4E47FF;
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 6px;
-  font-weight: bold;
-  cursor: pointer;
-  font-size: 16px;
 button:hover,
 .btn-primary:hover,
 .stay-btn:hover,
@@ -94,9 +78,6 @@ button:hover,
 }
 .action {
   display: flex;
-  height: 328px;
-  width: 1140px;
-  margin: 70px auto 50px auto;
   align-items: center;
   justify-content: space-between;
   max-width: 1140px;
@@ -114,11 +95,6 @@ button:hover,
   width: 403px;
   height: 328px;
   border-radius: 48px;
-}
-
-.section-action {
-  width: 203px;
-  margin: 72px 623px 72px 0px;
   object-fit: cover;
 }
 
@@ -145,6 +121,7 @@ main h3 {
 .secondary-bg {
   display: flex;
   justify-content: center;
+  padding: 10px 0;
 }
 
 .productive-user {
@@ -275,14 +252,92 @@ main h3 {
   margin-bottom: 30px;
 }
 
-
-.focus-button:hover {
-  background-color: #372eff;
-}
-
 .focus-image {
   max-width: 100%;
   height: auto;
   border-radius: 28px;
   margin-top: 20px;
+}
+.form-part {
+  padding: 40px 120px;
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  background-color: #f9f9f9;
+}
+
+.form-text {
+  max-width: 400px;
+  font-weight: bold;
+  font-size: 40px;
+  color: #000000;
+  margin-top: 65px;
+}
+
+form {
+  width: 100%;
+  max-width: 500px;
+}
+
+form label {
+  display: block;
+  font-size: 16px;
+  color: #000;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: #000;
+}
+
+textarea {
+  height: 150px;
+  resize: vertical;
+}
+
+.last-btn {
+  width: 100%;
+}
+
+.last-logo {
+  font-size: 100px;
+}
+
+.link {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  padding: 15px 0;
+}
+
+footer li a {
+  text-decoration: none;
+}
+
+.link-cl {
+  color: #8987A1;
+}
+
+footer ul li {
+  margin-right: 50px;
+}
+
+.f-paragraph {
+  color: #8987A1;
+}
+
+.footer {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 60px;
+  margin-top: 80px;
 }
